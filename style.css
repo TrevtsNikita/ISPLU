@@ -1,0 +1,215 @@
+﻿body{
+    padding:0;
+    margin:0;
+    font-family:"Century Gothic", sans-serif;
+    background: Gainsboro;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*вкладки*/
+#navmain{
+    width: 97,5%;
+    height:100px;
+    z-index: 0;
+}
+#nav{
+    width: 97,5%;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: url(images/bg1.png);
+    opacity: 1;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    height:100px;
+    padding:0 0 0 43px;
+    margin:0 auto;
+    text-align: center;
+    z-index: 9;
+}
+
+#nav ul{
+    width: 100%;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+#basket{
+    top: 5%;
+    left: 80%;
+    position: absolute;
+
+}
+#basket a{
+    color: white;
+}
+.navbar{
+    width: 40%;
+    height: 50%;
+    margin-top: 0.5%;
+    left: 0px;
+    position: absolute;
+
+}
+#nav ul li{
+    float:left;
+    font-size:0;
+    line-height:0;
+
+}
+#nav ul li a{
+    padding:22px 20px 20px;
+    font: 22px/40px "Century Gothic", sans-serif;
+    color:white;
+    background-color:inherit;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+#nav ul li a:hover{
+    text-decoration:underline;
+
+
+}
+#nav ul li a.hover{
+    padding:22px 20px 20px;
+    font:bold 22px/40px "Century Gothic", sans-serif;
+    color:white;
+    text-decoration:underline;
+    cursor:text;
+    text-transform:uppercase;
+}	
+a {
+    -webkit-transition: all 150ms ease;
+    -moz-transition: all 150ms ease;
+    -ms-transition: all 150ms ease;
+    -o-transition: all 150ms ease;
+    transition: all 150ms ease; 
+}
+
+
+/*Тело*/
+.carousel img{
+    margin: 0 auto;
+}
+.carousel .item{
+    margin-top: 50px; 
+    text-align: center;
+    height: 600px !important;
+
+
+}
+.carousel h2{
+    color: #fff;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 48px;
+}
+.carousel p{
+    color: #666;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.carousel-caption {
+    background: url(images/bg2.png);
+    border-radius: 100px;
+    box-shadow: 0 10px 10px rgba(0,0,0,1);
+
+}
+.carousel-caption button{
+    background: #FF6347;
+}
+.text1{
+    margin: 5%;
+    text-align: center;
+    font: "Century Gothic", sans-serif;
+    font-size: 50px;
+}
+.text2{
+    margin: 5%;
+    text-align: center;
+    font: "Century Gothic", sans-serif;
+    font-size: 50px;
+}
+.contact-form{
+    background: #5F9EA0;
+}
+.contact-form p{
+    margin: 2%;
+    text-align: center;
+    font: "Century Gothic", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.contact-form button{
+    margin: 1%;
+    background: #FF6347;
+    color:white;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+.number {
+    margin: 5%;
+    text-align: center;
+    font: "Century Gothic", sans-serif;
+    font-size: 25px;
+}
+
+#conteiner1 {
+    width: 1000px;
+    height: 0px;
+    border-radius: 15px;
+    margin:40px auto;
+    color:#929292;
+    opacity: 1;
+    padding:0px 0px 600px 0px;
+
+}
+.containermain{
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    margin-top: 5%;
+    left: 0px;
+    position: absolute;
+    padding: 20px;
+    background: #6495ED;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+.list-group-item{
+    background: #1E90FF;
+    left: 0px;
+
+}
+
+.containermain a{
+    color: white;
+
+}
+.col-md-4{
+    width: 20%;
+}
+footer {
+    margin-top: 5%;
+    padding: 25px 0 20px;
+    background-color: #008B8B;
+    color: #FFF;
+}
+
+.footer-p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.footer-social i {
+    padding: 12px 5px;
+    font-size: 18px;
+
+}
+
+.footer-social i:hover {
+    color: #000000;
+}
